@@ -9,6 +9,8 @@ import Foundation
 
 extension DataService {
     
+    /// Get ProfileContainer including exact profiles, time events and health prompts
+    /// - Parameter result: Result enum containing ProfileContainer or error.
     func profileInfo(result: @escaping (Result<ProfileContainer, Error>) -> Void) {
         
         apiService.profiles { [weak self] profilesResult in
@@ -53,6 +55,11 @@ private extension DataService {
     
     typealias ProfileFeatures = (events: [TimelineEvent], prompts: [HealthPrompt])
     
+    /// Helper function wich uses profile to obtain corresponding profiles features, such as
+    /// timeline events and health prompts.
+    /// - Parameters:
+    ///   - profile: Profile to get features for.
+    ///   - result: Result enum containing desired profile features or error.
     func profileFeatures(_ profile: Profile,
                          result: @escaping (Result<ProfileFeatures, Error>) -> Void) {
         
