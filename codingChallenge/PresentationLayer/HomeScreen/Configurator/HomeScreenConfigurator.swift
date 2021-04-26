@@ -20,6 +20,6 @@ class HomeScreenConfigurator {
         presenter.view = viewController
         viewController.output = presenter
         presenter.router = HomeScreenRouter()
-        presenter.router.transitionHandler = viewController as? TransitionController
+        presenter.router.transitionHandler = viewController
     }
 }

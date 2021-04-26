@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04EFE522A8A3E2D0D83797BF /* DetailsScreenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CECAC7485AE3CE05168D1 /* DetailsScreenInitializer.swift */; };
 		15608D52A053D7C3F9B3CE56 /* HomeScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DF84BABAC8036592AA5300 /* HomeScreenViewInput.swift */; };
 		19CE9978A93E815EBCB7B33A /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22004D5E4F798E9A65231DB /* HomeScreenPresenter.swift */; };
+		1E0F5B88E1E6C94FDC6754A7 /* DetailsScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7A82797A235C3BDA7A3FDE /* DetailsScreenViewController.xib */; };
 		3D517B73CB7D3DDB823ABF30 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C5463ABDACCB61C489F0F /* HomeScreenViewController.swift */; };
 		4C3B42628C46032C4A34F272 /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF487531F1F68398D92AA4 /* HomeScreenRouter.swift */; };
+		587B16072E1889CBC03B33E1 /* DetailsScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F89397A3316C9DDDC612D /* DetailsScreenViewOutput.swift */; };
 		72FAA1557479808CC59DBCCB /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E01C4BBE38C7BF8C73F5A9C /* HomeScreenViewController.xib */; };
 		857ACC406AB974F29723C515 /* HomeScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101806040A0B1C375CC58CD /* HomeScreenConfigurator.swift */; };
+		8C630FA05FE3D29E6CBC3923 /* DetailsScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE07B513BE99577A3A5776CD /* DetailsScreenRouterInput.swift */; };
 		8DA4F65DB552A5611EDECAC7 /* HomeScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205B0D6BCF675DFE58087C8 /* HomeScreenRouterInput.swift */; };
+		A206224F3DCE4F52AF86A51C /* DetailsScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB0720478FD6ECDF64C6D7 /* DetailsScreenPresenter.swift */; };
 		E61EF49404F0A767D78F6ECF /* HomeScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F985ADE7786BE0CEFFD8302 /* HomeScreenViewOutput.swift */; };
 		E694880F26372EBC00790E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694880E26372EBC00790E2E /* AppDelegate.swift */; };
 		E694881126372EBC00790E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694881026372EBC00790E2E /* SceneDelegate.swift */; };
@@ -45,17 +50,30 @@
 		E6EC42C126375B6800F08443 /* HomeScreenEventsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42C026375B6800F08443 /* HomeScreenEventsSectionHeader.swift */; };
 		E6EC42C626375D0000F08443 /* HomeScreenEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42C426375D0000F08443 /* HomeScreenEventsCell.swift */; };
 		E6EC42C726375D0000F08443 /* HomeScreenEventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EC42C526375D0000F08443 /* HomeScreenEventsCell.xib */; };
+		E6EC42D02637705D00F08443 /* OttonovaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42CF2637705D00F08443 /* OttonovaViewController.swift */; };
+		E8F6A6CDB03712ADD3237722 /* DetailsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0DD569C2A746D713643C7F /* DetailsScreenViewController.swift */; };
+		E97EF2336132429B48AB87D9 /* DetailsScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBB3203D1002FCF457B7F9 /* DetailsScreenRouter.swift */; };
+		F4B2833444D551A63E65F7AD /* DetailsScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC709C357F7909C261E443 /* DetailsScreenViewInput.swift */; };
+		FD98254DF9D403BAD0AE39A3 /* DetailsScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB666E83FEE5618136B5EE /* DetailsScreenConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		119C5463ABDACCB61C489F0F /* HomeScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		1EBBB3203D1002FCF457B7F9 /* DetailsScreenRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenRouter.swift; sourceTree = "<group>"; };
 		2101806040A0B1C375CC58CD /* HomeScreenConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenConfigurator.swift; sourceTree = "<group>"; };
 		2F985ADE7786BE0CEFFD8302 /* HomeScreenViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenViewOutput.swift; sourceTree = "<group>"; };
+		352F89397A3316C9DDDC612D /* DetailsScreenViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewOutput.swift; sourceTree = "<group>"; };
 		3E01C4BBE38C7BF8C73F5A9C /* HomeScreenViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
 		9205B0D6BCF675DFE58087C8 /* HomeScreenRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenRouterInput.swift; sourceTree = "<group>"; };
 		9C3319B7E2A08361FD8535EA /* HomeScreenInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenInitializer.swift; sourceTree = "<group>"; };
+		9DAC709C357F7909C261E443 /* DetailsScreenViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewInput.swift; sourceTree = "<group>"; };
+		AAFB666E83FEE5618136B5EE /* DetailsScreenConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenConfigurator.swift; sourceTree = "<group>"; };
+		AE07B513BE99577A3A5776CD /* DetailsScreenRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenRouterInput.swift; sourceTree = "<group>"; };
+		BC7A82797A235C3BDA7A3FDE /* DetailsScreenViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DetailsScreenViewController.xib; sourceTree = "<group>"; };
+		CD0DD569C2A746D713643C7F /* DetailsScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewController.swift; sourceTree = "<group>"; };
 		E0FF487531F1F68398D92AA4 /* HomeScreenRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
 		E22004D5E4F798E9A65231DB /* HomeScreenPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenPresenter.swift; sourceTree = "<group>"; };
+		E22CECAC7485AE3CE05168D1 /* DetailsScreenInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenInitializer.swift; sourceTree = "<group>"; };
 		E694880B26372EBC00790E2E /* codingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E694880E26372EBC00790E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E694881026372EBC00790E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +105,8 @@
 		E6EC42C026375B6800F08443 /* HomeScreenEventsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEventsSectionHeader.swift; sourceTree = "<group>"; };
 		E6EC42C426375D0000F08443 /* HomeScreenEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEventsCell.swift; sourceTree = "<group>"; };
 		E6EC42C526375D0000F08443 /* HomeScreenEventsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenEventsCell.xib; sourceTree = "<group>"; };
+		E6EC42CF2637705D00F08443 /* OttonovaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttonovaViewController.swift; sourceTree = "<group>"; };
+		E7BB0720478FD6ECDF64C6D7 /* DetailsScreenPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsScreenPresenter.swift; sourceTree = "<group>"; };
 		F7DF84BABAC8036592AA5300 /* HomeScreenViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenViewInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +121,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E03F92F130A93E16A635C58 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E22CECAC7485AE3CE05168D1 /* DetailsScreenInitializer.swift */,
+				AAFB666E83FEE5618136B5EE /* DetailsScreenConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		28DBB112D0304DDF5CD56272 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB0720478FD6ECDF64C6D7 /* DetailsScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		41F5DCEB3711BE4E11DDB2BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC709C357F7909C261E443 /* DetailsScreenViewInput.swift */,
+				CD0DD569C2A746D713643C7F /* DetailsScreenViewController.swift */,
+				352F89397A3316C9DDDC612D /* DetailsScreenViewOutput.swift */,
+				BC7A82797A235C3BDA7A3FDE /* DetailsScreenViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		520B7F52FFC4BF2989356F76 /* DetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1E03F92F130A93E16A635C58 /* Configurator */,
+				41F5DCEB3711BE4E11DDB2BC /* View */,
+				28DBB112D0304DDF5CD56272 /* Presenter */,
+				FF7EC03B598604A8A473F5A7 /* Router */,
+			);
+			path = DetailsScreen;
+			sourceTree = "<group>";
+		};
 		70AC1069174958803982C4B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,7 +245,9 @@
 		E694882326372F8D00790E2E /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				E6EC42CE2637704A00F08443 /* Root */,
 				8110B0655B5493768520A16C /* HomeScreen */,
+				520B7F52FFC4BF2989356F76 /* DetailsScreen */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -315,6 +376,23 @@
 			path = HomeScreenEventsCell;
 			sourceTree = "<group>";
 		};
+		E6EC42CE2637704A00F08443 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC42CF2637705D00F08443 /* OttonovaViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FF7EC03B598604A8A473F5A7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AE07B513BE99577A3A5776CD /* DetailsScreenRouterInput.swift */,
+				1EBBB3203D1002FCF457B7F9 /* DetailsScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,6 +456,7 @@
 				E6EC42C726375D0000F08443 /* HomeScreenEventsCell.xib in Resources */,
 				72FAA1557479808CC59DBCCB /* HomeScreenViewController.xib in Resources */,
 				E6EC42BE26375B4300F08443 /* HomeScreenEventsSectionHeader.xib in Resources */,
+				1E0F5B88E1E6C94FDC6754A7 /* DetailsScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +499,15 @@
 				8DA4F65DB552A5611EDECAC7 /* HomeScreenRouterInput.swift in Sources */,
 				4C3B42628C46032C4A34F272 /* HomeScreenRouter.swift in Sources */,
 				E6EC42A3263748A400F08443 /* TimelineEvent.swift in Sources */,
+				04EFE522A8A3E2D0D83797BF /* DetailsScreenInitializer.swift in Sources */,
+				FD98254DF9D403BAD0AE39A3 /* DetailsScreenConfigurator.swift in Sources */,
+				F4B2833444D551A63E65F7AD /* DetailsScreenViewInput.swift in Sources */,
+				E8F6A6CDB03712ADD3237722 /* DetailsScreenViewController.swift in Sources */,
+				587B16072E1889CBC03B33E1 /* DetailsScreenViewOutput.swift in Sources */,
+				E6EC42D02637705D00F08443 /* OttonovaViewController.swift in Sources */,
+				A206224F3DCE4F52AF86A51C /* DetailsScreenPresenter.swift in Sources */,
+				8C630FA05FE3D29E6CBC3923 /* DetailsScreenRouterInput.swift in Sources */,
+				E97EF2336132429B48AB87D9 /* DetailsScreenRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

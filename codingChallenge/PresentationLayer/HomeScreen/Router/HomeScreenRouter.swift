@@ -13,14 +13,8 @@ class HomeScreenRouter: HomeScreenRouterInput {
     
     var transitionHandler: TransitionController?
     
-    func openSomeModule() {
-    
-		//let storyboard = UIStoryboard(name: String(describing: <#ViewController#>.self), bundle: nil)
-        //if let controller = storyboard.instantiateInitialViewController() as? <#ViewController#> {
-            
-            //controller.configure
-            //transitionHandler?.pushViewController(controller, animated: false)
-        //}
+    func onNeedsToShowDetails(for event: TimelineEvent) {
+        let viewController = DetailsScreenViewController(event)
+        transitionHandler?.pushModule(viewController)
     }
-    
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeScreenViewController: UIViewController {
+class HomeScreenViewController: OttonovaViewController {
     
     // You can add here following (in next order, from up to down):
     // typealiases, static members, inner enums, overrided variables, outlets, constants, variables
@@ -99,7 +99,7 @@ extension HomeScreenViewController: HomeScreenViewInput {
 extension HomeScreenViewController: UITableViewDelegate {
  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        output.onNeedsToShowDetails(for: timeline[indexPath.section].events[indexPath.row])
     }
 }
 

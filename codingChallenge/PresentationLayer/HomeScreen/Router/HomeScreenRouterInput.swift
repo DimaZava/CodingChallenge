@@ -9,5 +9,5 @@
 
 protocol HomeScreenRouterInput: RootRouterInput {
 
-    func openSomeModule()
+    func onNeedsToShowDetails(for event: TimelineEvent)
 }

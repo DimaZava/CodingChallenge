@@ -40,4 +40,8 @@ class HomeScreenPresenter: HomeScreenViewOutput {
     func onViewIsReady() {
 		view.onViewWillAppear()
     }
+    
+    func onNeedsToShowDetails(for event: TimelineEvent) {
+        router.onNeedsToShowDetails(for: event)
+    }
 }

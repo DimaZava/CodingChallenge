@@ -9,4 +9,5 @@
 protocol HomeScreenViewOutput {
     func onViewDidLoad()
     func onViewIsReady()
+    func onNeedsToShowDetails(for event: TimelineEvent)
 }
