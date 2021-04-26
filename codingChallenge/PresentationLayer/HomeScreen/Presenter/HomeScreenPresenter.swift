@@ -6,6 +6,8 @@
 //  Copyright © 2021 Ottonova. All rights reserved.
 //
 
+import Foundation
+
 class HomeScreenPresenter: HomeScreenViewOutput {
 
     // MARK: Constants
@@ -24,11 +26,13 @@ class HomeScreenPresenter: HomeScreenViewOutput {
             
             guard let self = self else { print(CCError.unableToObtainObject.localizedDescription); return }
             
-            switch profileInfoResult {
-            case .success(let profileContainer):
-                break
-            case .failure(let error):
-                self.view.onError(error)
+            DispatchQueue.main.async {
+                switch profileInfoResult {
+                case .success(let profileContainer):
+                    self.view.onProfileContainerObtained(profileContainer)
+                case .failure(let error):
+                    self.view.onError(error)
+                }
             }
         }
     }

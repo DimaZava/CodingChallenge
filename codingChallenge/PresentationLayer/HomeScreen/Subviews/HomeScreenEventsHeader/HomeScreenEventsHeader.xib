@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeScreenEventsHeader" customModule="codingChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qev-mu-09a">
+                    <rect key="frame" x="8" y="8" width="398" height="144"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzW-vN-Zlg">
+                            <rect key="frame" x="291" y="96" width="91" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="87O-qn-0C7"/>
+                            </constraints>
+                            <state key="normal" title="Call to Action">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It  always seems impossible until it's done." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jh6-tp-Gmj">
+                            <rect key="frame" x="16" y="15.999999999999998" width="334" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEK-F7-mqH">
+                            <rect key="frame" x="366" y="16" width="16" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="QEK-F7-mqH" secondAttribute="height" multiplier="1:1" id="L47-L2-JLB"/>
+                                <constraint firstAttribute="height" constant="16" id="aXJ-g7-ePq"/>
+                            </constraints>
+                            <color key="tintColor" red="0.78823530669999997" green="0.80000001190000003" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button" image="xmark" catalog="system"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.56862747670000002" green="0.59607845540000004" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="zzW-vN-Zlg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Jh6-tp-Gmj" secondAttribute="bottom" constant="8" id="6AD-pZ-4cG"/>
+                        <constraint firstAttribute="height" constant="144" id="PYf-mM-6IR"/>
+                        <constraint firstAttribute="trailing" secondItem="zzW-vN-Zlg" secondAttribute="trailing" constant="16" id="ZRo-oh-Wtv"/>
+                        <constraint firstItem="Jh6-tp-Gmj" firstAttribute="leading" secondItem="qev-mu-09a" secondAttribute="leading" constant="16" id="eBq-W5-tau"/>
+                        <constraint firstAttribute="bottom" secondItem="zzW-vN-Zlg" secondAttribute="bottom" constant="16" id="s34-m3-iwM"/>
+                        <constraint firstItem="QEK-F7-mqH" firstAttribute="top" secondItem="qev-mu-09a" secondAttribute="top" constant="16" id="tC8-3R-flH"/>
+                        <constraint firstAttribute="trailing" secondItem="QEK-F7-mqH" secondAttribute="trailing" constant="16" id="uOw-fE-SRd"/>
+                        <constraint firstItem="QEK-F7-mqH" firstAttribute="leading" secondItem="Jh6-tp-Gmj" secondAttribute="trailing" constant="16" id="ur7-uD-bN3"/>
+                        <constraint firstItem="Jh6-tp-Gmj" firstAttribute="top" secondItem="qev-mu-09a" secondAttribute="top" constant="16" id="xBh-eT-kC5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="OD2-8c-ssB"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="qev-mu-09a" firstAttribute="leading" secondItem="OD2-8c-ssB" secondAttribute="leading" constant="8" id="GkW-K2-y3W"/>
+                <constraint firstItem="OD2-8c-ssB" firstAttribute="trailing" secondItem="qev-mu-09a" secondAttribute="trailing" constant="8" id="bOc-Q8-lYQ"/>
+                <constraint firstItem="qev-mu-09a" firstAttribute="top" secondItem="OD2-8c-ssB" secondAttribute="top" constant="8" id="czC-aU-4JD"/>
+                <constraint firstItem="OD2-8c-ssB" firstAttribute="bottom" secondItem="qev-mu-09a" secondAttribute="bottom" constant="8" id="iBt-oL-wcW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="actionButton" destination="zzW-vN-Zlg" id="VtF-Uu-Ekd"/>
+                <outlet property="closeButton" destination="QEK-F7-mqH" id="fYZ-Ao-za6"/>
+                <outlet property="containerView" destination="qev-mu-09a" id="2Qi-eT-5p2"/>
+                <outlet property="contentLabel" destination="Jh6-tp-Gmj" id="Pxd-5m-oAv"/>
+            </connections>
+            <point key="canvasLocation" x="85.507246376811594" y="203.39673913043481"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

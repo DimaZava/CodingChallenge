@@ -37,6 +37,14 @@
 		E6EC42A3263748A400F08443 /* TimelineEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42A2263748A400F08443 /* TimelineEvent.swift */; };
 		E6EC42A62637498F00F08443 /* HealthPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42A52637498F00F08443 /* HealthPrompt.swift */; };
 		E6EC42A926374B5E00F08443 /* ProfileContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42A826374B5E00F08443 /* ProfileContainer.swift */; };
+		E6EC42AF2637539900F08443 /* ViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42AE2637539900F08443 /* ViewConfigurable.swift */; };
+		E6EC42B32637542A00F08443 /* HomeScreenEventsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EC42B22637542A00F08443 /* HomeScreenEventsHeader.xib */; };
+		E6EC42B62637543400F08443 /* HomeScreenEventsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42B52637543400F08443 /* HomeScreenEventsHeader.swift */; };
+		E6EC42B9263754A100F08443 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42B8263754A100F08443 /* Colors.swift */; };
+		E6EC42BE26375B4300F08443 /* HomeScreenEventsSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EC42BD26375B4300F08443 /* HomeScreenEventsSectionHeader.xib */; };
+		E6EC42C126375B6800F08443 /* HomeScreenEventsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42C026375B6800F08443 /* HomeScreenEventsSectionHeader.swift */; };
+		E6EC42C626375D0000F08443 /* HomeScreenEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42C426375D0000F08443 /* HomeScreenEventsCell.swift */; };
+		E6EC42C726375D0000F08443 /* HomeScreenEventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EC42C526375D0000F08443 /* HomeScreenEventsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +79,14 @@
 		E6EC42A2263748A400F08443 /* TimelineEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineEvent.swift; sourceTree = "<group>"; };
 		E6EC42A52637498F00F08443 /* HealthPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPrompt.swift; sourceTree = "<group>"; };
 		E6EC42A826374B5E00F08443 /* ProfileContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainer.swift; sourceTree = "<group>"; };
+		E6EC42AE2637539900F08443 /* ViewConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurable.swift; sourceTree = "<group>"; };
+		E6EC42B22637542A00F08443 /* HomeScreenEventsHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenEventsHeader.xib; sourceTree = "<group>"; };
+		E6EC42B52637543400F08443 /* HomeScreenEventsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEventsHeader.swift; sourceTree = "<group>"; };
+		E6EC42B8263754A100F08443 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E6EC42BD26375B4300F08443 /* HomeScreenEventsSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenEventsSectionHeader.xib; sourceTree = "<group>"; };
+		E6EC42C026375B6800F08443 /* HomeScreenEventsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEventsSectionHeader.swift; sourceTree = "<group>"; };
+		E6EC42C426375D0000F08443 /* HomeScreenEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEventsCell.swift; sourceTree = "<group>"; };
+		E6EC42C526375D0000F08443 /* HomeScreenEventsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenEventsCell.xib; sourceTree = "<group>"; };
 		F7DF84BABAC8036592AA5300 /* HomeScreenViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenViewInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +115,7 @@
 		8110B0655B5493768520A16C /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				E6EC42AC2637528400F08443 /* Subviews */,
 				A748284C881F51E6F3E2EF86 /* Configurator */,
 				70AC1069174958803982C4B0 /* View */,
 				9D7E7719EADC45625E1ACBB8 /* Presenter */,
@@ -206,6 +223,7 @@
 			children = (
 				E694882E263730CD00790E2E /* RootRouterInput.swift */,
 				E694882F263730CD00790E2E /* TransitionController.swift */,
+				E6EC42AE2637539900F08443 /* ViewConfigurable.swift */,
 			);
 			path = CustomProtocols;
 			sourceTree = "<group>";
@@ -226,6 +244,7 @@
 				E6EC428626373A5D00F08443 /* HTTPHeaders.swift */,
 				E6EC428526373A5D00F08443 /* HTTPParameters.swift */,
 				E6EC42812637370500F08443 /* Errors.swift */,
+				E6EC42B8263754A100F08443 /* Colors.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -257,6 +276,43 @@
 				E6EC429F263743C100F08443 /* DataService+Profiles.swift */,
 			);
 			path = DataService;
+			sourceTree = "<group>";
+		};
+		E6EC42AC2637528400F08443 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC42B12637541200F08443 /* HomeScreenEventsHeader */,
+				E6EC42BB26375B1200F08443 /* HomeScreenEventsSectionHeader */,
+				E6EC42C326375CE400F08443 /* HomeScreenEventsCell */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E6EC42B12637541200F08443 /* HomeScreenEventsHeader */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC42B52637543400F08443 /* HomeScreenEventsHeader.swift */,
+				E6EC42B22637542A00F08443 /* HomeScreenEventsHeader.xib */,
+			);
+			path = HomeScreenEventsHeader;
+			sourceTree = "<group>";
+		};
+		E6EC42BB26375B1200F08443 /* HomeScreenEventsSectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC42C026375B6800F08443 /* HomeScreenEventsSectionHeader.swift */,
+				E6EC42BD26375B4300F08443 /* HomeScreenEventsSectionHeader.xib */,
+			);
+			path = HomeScreenEventsSectionHeader;
+			sourceTree = "<group>";
+		};
+		E6EC42C326375CE400F08443 /* HomeScreenEventsCell */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC42C426375D0000F08443 /* HomeScreenEventsCell.swift */,
+				E6EC42C526375D0000F08443 /* HomeScreenEventsCell.xib */,
+			);
+			path = HomeScreenEventsCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +374,10 @@
 			files = (
 				E694881B26372EBD00790E2E /* LaunchScreen.storyboard in Resources */,
 				E694881826372EBD00790E2E /* Assets.xcassets in Resources */,
+				E6EC42B32637542A00F08443 /* HomeScreenEventsHeader.xib in Resources */,
+				E6EC42C726375D0000F08443 /* HomeScreenEventsCell.xib in Resources */,
 				72FAA1557479808CC59DBCCB /* HomeScreenViewController.xib in Resources */,
+				E6EC42BE26375B4300F08443 /* HomeScreenEventsSectionHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EC42B62637543400F08443 /* HomeScreenEventsHeader.swift in Sources */,
+				E6EC42B9263754A100F08443 /* Colors.swift in Sources */,
 				E694880F26372EBC00790E2E /* AppDelegate.swift in Sources */,
 				E6EC42782637367E00F08443 /* APIService.swift in Sources */,
 				E6EC42742637367700F08443 /* DataService.swift in Sources */,
@@ -346,6 +407,9 @@
 				15608D52A053D7C3F9B3CE56 /* HomeScreenViewInput.swift in Sources */,
 				3D517B73CB7D3DDB823ABF30 /* HomeScreenViewController.swift in Sources */,
 				E61EF49404F0A767D78F6ECF /* HomeScreenViewOutput.swift in Sources */,
+				E6EC42C626375D0000F08443 /* HomeScreenEventsCell.swift in Sources */,
+				E6EC42C126375B6800F08443 /* HomeScreenEventsSectionHeader.swift in Sources */,
+				E6EC42AF2637539900F08443 /* ViewConfigurable.swift in Sources */,
 				E6EC428C26373B1B00F08443 /* URLRequest+Extensions.swift in Sources */,
 				E6EC427D2637369300F08443 /* APIEndpoints.swift in Sources */,
 				E6948831263730CD00790E2E /* TransitionController.swift in Sources */,

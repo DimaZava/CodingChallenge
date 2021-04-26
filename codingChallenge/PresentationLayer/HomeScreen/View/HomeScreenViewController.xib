@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeScreenViewController" customModule="codingChallenge" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="9fy-qi-BxG" id="ayE-P2-RT1"/>
                 <outlet property="view" destination="iN0-l3-epB" id="h9g-bs-uc7"/>
             </connections>
         </placeholder>
@@ -17,8 +18,19 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-qi-BxG">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9fy-qi-BxG" secondAttribute="trailing" id="Bwk-cO-Ap8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="9fy-qi-BxG" secondAttribute="bottom" id="CKh-B1-sAJ"/>
+                <constraint firstItem="9fy-qi-BxG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UmK-eA-IiS"/>
+                <constraint firstItem="9fy-qi-BxG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="sO1-eC-LM4"/>
+            </constraints>
             <point key="canvasLocation" x="101" y="121"/>
         </view>
         <customObject id="doc-vr-oUk" customClass="HomeScreenInitializer" customModule="codingChallenge" customModuleProvider="target">

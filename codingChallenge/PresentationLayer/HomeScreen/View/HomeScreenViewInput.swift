@@ -9,5 +9,6 @@
 protocol HomeScreenViewInput: AnyObject {
     func setupInitialState()
     func onViewWillAppear()
+    func onProfileContainerObtained(_ container: ProfileContainer)
     func onError(_ error: Error)
 }
