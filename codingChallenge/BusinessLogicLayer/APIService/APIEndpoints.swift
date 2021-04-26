@@ -17,8 +17,8 @@ enum APIEndpoints {
     }
     
     case profiles
-    case timelineEvents(profileId: Int)
-    case healthPrompts(profileId: Int)
+    case timelineEvents(profileId: String)
+    case healthPrompts(profileId: String)
     case custom(String, HTTPMethod)
     
     var path: String {

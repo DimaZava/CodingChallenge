@@ -7,7 +7,14 @@
 
 import Foundation
 
-final class APIService {
+protocol APIServiceInput {
+    
+    func profiles(result: @escaping (Result<Data, Error>) -> Void)
+    func timelineEvents(for profileId: String, result: @escaping (Result<Data, Error>) -> Void)
+    func healthPrompts(for profileId: String, result: @escaping (Result<Data, Error>) -> Void)
+}
+
+final class APIService: APIServiceInput {
     
     // MARK: Constants
     private let urlSession: URLSession

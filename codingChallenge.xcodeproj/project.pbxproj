@@ -33,6 +33,10 @@
 		E6EC429326373E4200F08443 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC429226373E4200F08443 /* Profile.swift */; };
 		E6EC429826373F9B00F08443 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC429726373F9B00F08443 /* UIColor+Extensions.swift */; };
 		E6EC429D2637428400F08443 /* APIService+Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC429C2637428400F08443 /* APIService+Profiles.swift */; };
+		E6EC42A0263743C100F08443 /* DataService+Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC429F263743C100F08443 /* DataService+Profiles.swift */; };
+		E6EC42A3263748A400F08443 /* TimelineEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42A2263748A400F08443 /* TimelineEvent.swift */; };
+		E6EC42A62637498F00F08443 /* HealthPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42A52637498F00F08443 /* HealthPrompt.swift */; };
+		E6EC42A926374B5E00F08443 /* ProfileContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC42A826374B5E00F08443 /* ProfileContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +67,10 @@
 		E6EC429226373E4200F08443 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E6EC429726373F9B00F08443 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		E6EC429C2637428400F08443 /* APIService+Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService+Profiles.swift"; sourceTree = "<group>"; };
+		E6EC429F263743C100F08443 /* DataService+Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataService+Profiles.swift"; sourceTree = "<group>"; };
+		E6EC42A2263748A400F08443 /* TimelineEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineEvent.swift; sourceTree = "<group>"; };
+		E6EC42A52637498F00F08443 /* HealthPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPrompt.swift; sourceTree = "<group>"; };
+		E6EC42A826374B5E00F08443 /* ProfileContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainer.swift; sourceTree = "<group>"; };
 		F7DF84BABAC8036592AA5300 /* HomeScreenViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeScreenViewInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,7 +242,10 @@
 		E6EC429526373E4600F08443 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				E6EC42A826374B5E00F08443 /* ProfileContainer.swift */,
 				E6EC429226373E4200F08443 /* Profile.swift */,
+				E6EC42A2263748A400F08443 /* TimelineEvent.swift */,
+				E6EC42A52637498F00F08443 /* HealthPrompt.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -243,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				E6EC42732637367700F08443 /* DataService.swift */,
+				E6EC429F263743C100F08443 /* DataService+Profiles.swift */,
 			);
 			path = DataService;
 			sourceTree = "<group>";
@@ -324,6 +336,8 @@
 				E6948830263730CD00790E2E /* RootRouterInput.swift in Sources */,
 				E694881126372EBC00790E2E /* SceneDelegate.swift in Sources */,
 				E6A995F0241B98E994528D2F /* HomeScreenInitializer.swift in Sources */,
+				E6EC42A0263743C100F08443 /* DataService+Profiles.swift in Sources */,
+				E6EC42A926374B5E00F08443 /* ProfileContainer.swift in Sources */,
 				E6EC428826373A5D00F08443 /* HTTPHeaders.swift in Sources */,
 				E694882A2637300300790E2E /* ApplicationConfigurator.swift in Sources */,
 				E6EC429D2637428400F08443 /* APIService+Profiles.swift in Sources */,
@@ -335,11 +349,13 @@
 				E6EC428C26373B1B00F08443 /* URLRequest+Extensions.swift in Sources */,
 				E6EC427D2637369300F08443 /* APIEndpoints.swift in Sources */,
 				E6948831263730CD00790E2E /* TransitionController.swift in Sources */,
+				E6EC42A62637498F00F08443 /* HealthPrompt.swift in Sources */,
 				E6EC42822637370500F08443 /* Errors.swift in Sources */,
 				19CE9978A93E815EBCB7B33A /* HomeScreenPresenter.swift in Sources */,
 				E6EC429826373F9B00F08443 /* UIColor+Extensions.swift in Sources */,
 				8DA4F65DB552A5611EDECAC7 /* HomeScreenRouterInput.swift in Sources */,
 				4C3B42628C46032C4A34F272 /* HomeScreenRouter.swift in Sources */,
+				E6EC42A3263748A400F08443 /* TimelineEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

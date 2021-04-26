@@ -51,21 +51,28 @@ struct Profile: Codable {
 // MARK: - Subtypes
 extension Profile {
     
+    // MARK: - Gender
     enum Gender: String, Codable {
         case male
         case female
     }
     
+    // MARK: - Tariff
     struct Tariff: Codable {
         
+        // MARK: - Icon
         struct Icon: Codable {
+            
+            // MARK: Constants
             let url: String
-            let secondaryURL: String
+            let secondaryUrl: String
             let primaryColor: String
+            let secondaryColor: String
+            
+            // MARK: Computables
             var primaryConvertedColor: UIColor? {
                 UIColor(hex: primaryColor)
             }
-            let secondaryColor: String
             var secondaryConvertedColor: UIColor? {
                 UIColor(hex: secondaryColor)
             }
@@ -77,6 +84,7 @@ extension Profile {
         let excessRate: Int
     }
     
+    // MARK: - Address
     struct Address: Codable {
         let street: String
         let streetNumber: String
@@ -85,6 +93,7 @@ extension Profile {
         let additional: String
     }
     
+    // MARK: - Contact
     struct Contact: Codable {
         let email: String
         let phone: String
